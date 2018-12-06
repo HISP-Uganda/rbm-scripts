@@ -32,7 +32,7 @@ module.exports.processData = (dataSet, data) => {
     data = nest(data, [dataSet.dataElementColumn.value]);
     const dataSetUnits = _.fromPairs(dataSet.organisationUnits.map(o => {
         if (dataSet.orgUnitStrategy.value === 'name') {
-            return [o.name, o.id];
+            return [o.name.toLocaleLowerCase(), o.id];
         } else if (dataSet.orgUnitStrategy.value === 'code') {
             return [o.code, o.id];
         }
@@ -51,7 +51,7 @@ module.exports.processData = (dataSet, data) => {
                         return [d[dataSet.categoryOptionComboColumn.value], {
                             period: d[dataSet.periodColumn.value],
                             value: d[dataSet.dataValueColumn.value],
-                            orgUnit: d[dataSet.orgUnitColumn.value]
+                            orgUnit: d[dataSet.orgUnitColumn.value].toLocaleLowerCase()
                         }]
                     }));
 

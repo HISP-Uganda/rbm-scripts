@@ -70,5 +70,5 @@ const processWaterData = async () => {
 };
 
 processWaterData().then(response => {
-    console.log(response);
+    console.log('It has finished');
 });

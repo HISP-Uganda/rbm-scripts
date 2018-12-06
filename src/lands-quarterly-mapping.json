@@ -1,28 +1,28 @@
 {
   "id": "EJMcDUrnwIZ",
   "orgUnitColumn": {
-    "label": "District",
-    "value": "District"
+    "label": "organisationUnit",
+    "value": "organisationUnit"
   },
   "periodColumn": {
-    "label": "Quarter",
-    "value": "Quarter"
+    "label": "period",
+    "value": "period"
   },
   "orgUnitStrategy": {
     "value": "name",
     "label": "name"
   },
   "dataElementColumn": {
-    "label": "Data Element",
-    "value": "Data Element"
+    "label": "code",
+    "value": "code"
   },
   "categoryOptionComboColumn": {
-    "label": "Category",
-    "value": "Category"
+    "label": "categoryOptioncombo",
+    "value": "categoryOptioncombo"
   },
   "dataValueColumn": {
-    "label": "Value",
-    "value": "Value"
+    "label": "value",
+    "value": "value"
   },
   "forms": [
     {
@@ -32,8 +32,8 @@
           "name": "Cancelling a caveat",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "3. Cancelling a caveat",
-              "value": "3. Cancelling a caveat"
+              "label": "Cancelling a caveat",
+              "value": "Cancelling a caveat"
             }
           }
         },
@@ -42,8 +42,8 @@
           "name": "Cancelling Condominium",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "2. Cancelling Condominium",
-              "value": "2. Cancelling Condominium"
+              "label": "Cancelling Condominium",
+              "value": "Cancelling Condominium"
             }
           }
         },
@@ -52,8 +52,8 @@
           "name": "Cancelling a Mortgage",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "10. Cancelling a Mortgage",
-              "value": "10. Cancelling a Mortgage"
+              "label": "Cancelling a Mortgage",
+              "value": "Cancelling a Mortgage"
             }
           }
         },
@@ -62,8 +62,8 @@
           "name": "Cancelling of Seizure",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "17. Cancelling of Seizure",
-              "value": "17. Cancelling of Seizure"
+              "label": "Cancelling of Seizure",
+              "value": "Cancelling of Seizure"
             }
           }
         },
@@ -72,8 +72,8 @@
           "name": "Split into Condominium",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "4. Split into Condominium",
-              "value": "4. Split into Condominium"
+              "label": "Split into Condominium",
+              "value": "Split into Condominium"
             }
           }
         },
@@ -82,8 +82,8 @@
           "name": "Establishing a caveat",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "5. Establishing a caveat",
-              "value": "5. Establishing a caveat"
+              "label": "Establishing a caveat",
+              "value": "Establishing a caveat"
             }
           }
         },
@@ -92,8 +92,8 @@
           "name": "Establishing a Mortgage",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "12. Establishing a Mortgage",
-              "value": "12. Establishing a Mortgage"
+              "label": "Establishing a Mortgage",
+              "value": "Establishing a Mortgage"
             }
           }
         },
@@ -102,8 +102,8 @@
           "name": "Establishing a Seizure",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "19. Establishing a Seizure",
-              "value": "19. Establishing a Seizure"
+              "label": "Establishing a Seizure",
+              "value": "Establishing a Seizure"
             }
           }
         },
@@ -112,8 +112,8 @@
           "name": "Donation",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "6. Donation",
-              "value": "6. Donation"
+              "label": "Donation",
+              "value": "Donation"
             }
           }
         },
@@ -122,8 +122,8 @@
           "name": "Division of Parcels",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "7. Division of Parcels",
-              "value": "7. Division of Parcels"
+              "label": "Division of Parcels",
+              "value": "Division of Parcels"
             }
           }
         },
@@ -132,8 +132,8 @@
           "name": "Expropriation",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "8. Expropriation",
-              "value": "8. Expropriation"
+              "label": "Expropriation",
+              "value": "Expropriation"
             }
           }
         },
@@ -142,8 +142,8 @@
           "name": "Exchange",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "9. Exchange",
-              "value": "9. Exchange"
+              "label": "Exchange",
+              "value": "Exchange"
             }
           }
         },
@@ -152,8 +152,8 @@
           "name": "Merging of Parcels",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "11. Merging of Parcels",
-              "value": "11. Merging of Parcels"
+              "label": "Merging of Parcels",
+              "value": "Merging of Parcels"
             }
           }
         },
@@ -162,8 +162,8 @@
           "name": "Transfer of Mortgage",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "13. Transfer of Mortgage",
-              "value": "13. Transfer of Mortgage"
+              "label": "Transfer of Mortgage",
+              "value": "Transfer of Mortgage"
             }
           }
         },
@@ -172,8 +172,8 @@
           "name": "Transfer on title by death",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "21. Transfer on title by death",
-              "value": "21. Transfer on title by death"
+              "label": "Transfer on title by death",
+              "value": "Transfer on title by death"
             }
           }
         },
@@ -182,8 +182,8 @@
           "name": "Transfer of Full title",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "23. Transfer of Full title",
-              "value": "23. Transfer of Full title"
+              "label": "Transfer of Full title",
+              "value": "Transfer of Full title"
             }
           }
         },
@@ -192,8 +192,8 @@
           "name": "Transfer of Emphyteutic Sub-lease",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "25. Transfer of Emphyteutic Sub-lease",
-              "value": "25. Transfer of Emphyteutic Sub-lease"
+              "label": "Transfer of Emphyteutic Sub-lease",
+              "value": "Transfer of Emphyteutic Sub-lease"
             }
           }
         },
@@ -202,8 +202,8 @@
           "name": "Transfer of Emphyteutic lease",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "22. Transfer of Emphyteutic lease",
-              "value": "22. Transfer of Emphyteutic lease"
+              "label": "Transfer of Emphyteutic lease",
+              "value": "Transfer of Emphyteutic lease"
             }
           }
         },
@@ -212,8 +212,8 @@
           "name": "Transfer of Condominium Rights",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "34. Transfer of Condominium Rights",
-              "value": "34. Transfer of Condominium Rights"
+              "label": "Transfer of Condominium Rights",
+              "value": "Transfer of Condominium Rights"
             }
           }
         },
@@ -222,8 +222,8 @@
           "name": "Transfer of Conditional Title",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "20. Transfer of Conditional Title",
-              "value": "20. Transfer of Conditional Title"
+              "label": "Transfer of Conditional Title",
+              "value": "Transfer of Conditional Title"
             }
           }
         },
@@ -232,8 +232,8 @@
           "name": "Rectification by applicant",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "14. Rectification by applicant",
-              "value": "14. Rectification by applicant"
+              "label": "Rectification by applicant",
+              "value": "Rectification by applicant"
             }
           }
         },
@@ -242,8 +242,8 @@
           "name": "Rectification by Registrar",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "16. Rectification by Registrar",
-              "value": "16. Rectification by Registrar"
+              "label": "Rectification by Registrar",
+              "value": "Rectification by Registrar"
             }
           }
         },
@@ -252,8 +252,8 @@
           "name": "Rectification of Survey by Registrar",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "15. Rectification of Survey by Registrar",
-              "value": "15. Rectification of Survey by Registrar"
+              "label": "Rectification of Survey by Registrar",
+              "value": "Rectification of Survey by Registrar"
             }
           }
         },
@@ -262,8 +262,8 @@
           "name": "Servitude",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "18. Servitude",
-              "value": "18. Servitude"
+              "label": "Servitude",
+              "value": "Servitude"
             }
           }
         },
@@ -272,8 +272,8 @@
           "name": "Replacement of title",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "24. Replacement of title",
-              "value": "24. Replacement of title"
+              "label": "Replacement of title",
+              "value": "Replacement of title"
             }
           }
         },
@@ -282,8 +282,8 @@
           "name": "Change Parcel",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "26. Change Parcel",
-              "value": "26. Change Parcel"
+              "label": "Change Parcel",
+              "value": "Change Parcel"
             }
           }
         },
@@ -292,8 +292,8 @@
           "name": "Change Person",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "27. Change Person",
-              "value": "27. Change Person"
+              "label": "Change Person",
+              "value": "Change Person"
             }
           }
         },
@@ -302,8 +302,8 @@
           "name": "First Registration",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "28. First Registration",
-              "value": "28. First Registration"
+              "label": "First Registration",
+              "value": "First Registration"
             }
           }
         },
@@ -312,8 +312,8 @@
           "name": "Remove Dispute",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "29. Remove Dispute",
-              "value": "29. Remove Dispute"
+              "label": "Remove Dispute",
+              "value": "Remove Dispute"
             }
           }
         },
@@ -322,8 +322,8 @@
           "name": "Convert to Conditional Title",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "30. Convert to Conditional Title",
-              "value": "30. Convert to Conditional Title"
+              "label": "Convert to Conditional Title",
+              "value": "Convert to Conditional Title"
             }
           }
         },
@@ -332,8 +332,8 @@
           "name": "Convert to Emphyteutic Lease",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "31. Convert to Emphyteutic Lease",
-              "value": "31. Convert to Emphyteutic Lease"
+              "label": "Convert to Emphyteutic Lease",
+              "value": "Convert to Emphyteutic Lease"
             }
           }
         },
@@ -342,8 +342,8 @@
           "name": "Convert to Full Title",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "32. Convert to Full Title",
-              "value": "32. Convert to Full Title"
+              "label": "Convert to Full Title",
+              "value": "Convert to Full Title"
             }
           }
         },
@@ -352,8 +352,8 @@
           "name": "Boundary Change",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "33. Boundary Change",
-              "value": "33. Boundary Change"
+              "label": "Boundary Change",
+              "value": "Boundary Change"
             }
           }
         },
@@ -362,8 +362,8 @@
           "name": "Add Dispute",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "35. Add Dispute",
-              "value": "35. Add Dispute"
+              "label": "Add Dispute",
+              "value": "Add Dispute"
             }
           }
         },
@@ -372,8 +372,8 @@
           "name": "Transfer by court decision",
           "mapping": {
             "j2eablH0pUR": {
-              "label": "1. Court decision",
-              "value": "1. Court decision"
+              "label": "Court decision",
+              "value": "Court decision"
             }
           }
         }
@@ -383,8 +383,8 @@
           "id": "j2eablH0pUR",
           "name": "LAM08 - Total number of land transactions registered",
           "mapping": {
-            "label": "LAM08 - Total number of land transactions registered",
-            "value": "LAM08 - Total number of land transactions registered"
+            "label": "LAM08",
+            "value": "LAM08"
           }
         }
       ]
