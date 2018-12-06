@@ -1,0 +1,74 @@
+{
+  "id": "bU2LoHFGUzr",
+  "name": "National Monthly report",
+  "orgUnitColumn": {
+    "label": "Country",
+    "value": "Country"
+  },
+  "periodColumn": {
+    "label": "Month",
+    "value": "Month"
+  },
+  "orgUnitStrategy": {
+    "value": "name",
+    "label": "name"
+  },
+  "dataElementColumn": {
+    "label": "Data Element",
+    "value": "Data Element"
+  },
+  "categoryOptionComboColumn": {
+    "label": "Category",
+    "value": "Category"
+  },
+  "dataValueColumn": {
+    "label": "Value",
+    "value": "Value"
+  },
+  "forms": [
+    {
+      "categoryOptionCombos": [
+        {
+          "id": "HllvX50cXC0",
+          "name": "default",
+          "mapping": {
+            "ZqpPX9Gi9cQ": {
+              "label": "default",
+              "value": "default"
+            },
+            "lAaRHD0OUoI": {
+              "label": "default",
+              "value": "default"
+            }
+          }
+        }
+      ],
+      "dataElements": [
+        {
+          "id": "lAaRHD0OUoI",
+          "name": "LAM12 - Public Access - Female - Actual",
+          "mapping": {
+            "label": "LAM12 - Public Access - Female - Actual",
+            "value": "LAM12 - Public Access - Female - Actual"
+          }
+        },
+        {
+          "id": "ZqpPX9Gi9cQ",
+          "name": "LAM12 - Public Access - Male - Actual",
+          "mapping": {
+            "label": "LAM12 - Public Access - Male - Actual",
+            "value": "LAM12 - Public Access - Male - Actual"
+          }
+        }
+      ]
+    }
+  ],
+  "organisationUnits": [
+    {
+      "id": "ocApO88J34K",
+      "name": "Rwanda",
+      "code": "RWD"
+    }
+  ],
+  "periodType": "Monthly"
+}

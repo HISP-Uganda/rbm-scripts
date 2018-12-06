@@ -1,0 +1,1 @@
+data = require('./data_samples/lands_national_monthly.json');

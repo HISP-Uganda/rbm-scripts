@@ -1,0 +1,546 @@
+{
+  "id": "EJMcDUrnwIZ",
+  "orgUnitColumn": {
+    "label": "District",
+    "value": "District"
+  },
+  "periodColumn": {
+    "label": "Quarter",
+    "value": "Quarter"
+  },
+  "orgUnitStrategy": {
+    "value": "name",
+    "label": "name"
+  },
+  "dataElementColumn": {
+    "label": "Data Element",
+    "value": "Data Element"
+  },
+  "categoryOptionComboColumn": {
+    "label": "Category",
+    "value": "Category"
+  },
+  "dataValueColumn": {
+    "label": "Value",
+    "value": "Value"
+  },
+  "forms": [
+    {
+      "categoryOptionCombos": [
+        {
+          "id": "XozyGVW2fJL",
+          "name": "Cancelling a caveat",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "3. Cancelling a caveat",
+              "value": "3. Cancelling a caveat"
+            }
+          }
+        },
+        {
+          "id": "Y918v8IV2Os",
+          "name": "Cancelling Condominium",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "2. Cancelling Condominium",
+              "value": "2. Cancelling Condominium"
+            }
+          }
+        },
+        {
+          "id": "oxECuBSaADu",
+          "name": "Cancelling a Mortgage",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "10. Cancelling a Mortgage",
+              "value": "10. Cancelling a Mortgage"
+            }
+          }
+        },
+        {
+          "id": "bXURr8C8Bd7",
+          "name": "Cancelling of Seizure",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "17. Cancelling of Seizure",
+              "value": "17. Cancelling of Seizure"
+            }
+          }
+        },
+        {
+          "id": "AaiOoR4DbsL",
+          "name": "Split into Condominium",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "4. Split into Condominium",
+              "value": "4. Split into Condominium"
+            }
+          }
+        },
+        {
+          "id": "mI7mCz0anvB",
+          "name": "Establishing a caveat",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "5. Establishing a caveat",
+              "value": "5. Establishing a caveat"
+            }
+          }
+        },
+        {
+          "id": "RQFxCXgyMXl",
+          "name": "Establishing a Mortgage",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "12. Establishing a Mortgage",
+              "value": "12. Establishing a Mortgage"
+            }
+          }
+        },
+        {
+          "id": "nSt01r75SnD",
+          "name": "Establishing a Seizure",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "19. Establishing a Seizure",
+              "value": "19. Establishing a Seizure"
+            }
+          }
+        },
+        {
+          "id": "S326JrJCBF8",
+          "name": "Donation",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "6. Donation",
+              "value": "6. Donation"
+            }
+          }
+        },
+        {
+          "id": "dTTUzyRG6vn",
+          "name": "Division of Parcels",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "7. Division of Parcels",
+              "value": "7. Division of Parcels"
+            }
+          }
+        },
+        {
+          "id": "AZJ6nAXtyCR",
+          "name": "Expropriation",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "8. Expropriation",
+              "value": "8. Expropriation"
+            }
+          }
+        },
+        {
+          "id": "nQ6tddu9p2v",
+          "name": "Exchange",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "9. Exchange",
+              "value": "9. Exchange"
+            }
+          }
+        },
+        {
+          "id": "jIqBcnxJwt1",
+          "name": "Merging of Parcels",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "11. Merging of Parcels",
+              "value": "11. Merging of Parcels"
+            }
+          }
+        },
+        {
+          "id": "LnVO3tJxG5o",
+          "name": "Transfer of Mortgage",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "13. Transfer of Mortgage",
+              "value": "13. Transfer of Mortgage"
+            }
+          }
+        },
+        {
+          "id": "mZsfEw3SEM6",
+          "name": "Transfer on title by death",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "21. Transfer on title by death",
+              "value": "21. Transfer on title by death"
+            }
+          }
+        },
+        {
+          "id": "ixvGyNChSdp",
+          "name": "Transfer of Full title",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "23. Transfer of Full title",
+              "value": "23. Transfer of Full title"
+            }
+          }
+        },
+        {
+          "id": "EWmqzOMy45n",
+          "name": "Transfer of Emphyteutic Sub-lease",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "25. Transfer of Emphyteutic Sub-lease",
+              "value": "25. Transfer of Emphyteutic Sub-lease"
+            }
+          }
+        },
+        {
+          "id": "V2gOvGP42SK",
+          "name": "Transfer of Emphyteutic lease",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "22. Transfer of Emphyteutic lease",
+              "value": "22. Transfer of Emphyteutic lease"
+            }
+          }
+        },
+        {
+          "id": "unoTCiY9kWK",
+          "name": "Transfer of Condominium Rights",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "34. Transfer of Condominium Rights",
+              "value": "34. Transfer of Condominium Rights"
+            }
+          }
+        },
+        {
+          "id": "WyVHf82YT4Y",
+          "name": "Transfer of Conditional Title",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "20. Transfer of Conditional Title",
+              "value": "20. Transfer of Conditional Title"
+            }
+          }
+        },
+        {
+          "id": "ROnlSrZrllc",
+          "name": "Rectification by applicant",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "14. Rectification by applicant",
+              "value": "14. Rectification by applicant"
+            }
+          }
+        },
+        {
+          "id": "gL32dTaV0aO",
+          "name": "Rectification by Registrar",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "16. Rectification by Registrar",
+              "value": "16. Rectification by Registrar"
+            }
+          }
+        },
+        {
+          "id": "HuZo8THhVbc",
+          "name": "Rectification of Survey by Registrar",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "15. Rectification of Survey by Registrar",
+              "value": "15. Rectification of Survey by Registrar"
+            }
+          }
+        },
+        {
+          "id": "QZNmnpFZpmP",
+          "name": "Servitude",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "18. Servitude",
+              "value": "18. Servitude"
+            }
+          }
+        },
+        {
+          "id": "JPx4E4jngpZ",
+          "name": "Replacement of title",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "24. Replacement of title",
+              "value": "24. Replacement of title"
+            }
+          }
+        },
+        {
+          "id": "yXLfsoEiXMZ",
+          "name": "Change Parcel",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "26. Change Parcel",
+              "value": "26. Change Parcel"
+            }
+          }
+        },
+        {
+          "id": "moJpWPJUPRP",
+          "name": "Change Person",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "27. Change Person",
+              "value": "27. Change Person"
+            }
+          }
+        },
+        {
+          "id": "w1qjacETTYR",
+          "name": "First Registration",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "28. First Registration",
+              "value": "28. First Registration"
+            }
+          }
+        },
+        {
+          "id": "DqvyBwd65dH",
+          "name": "Remove Dispute",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "29. Remove Dispute",
+              "value": "29. Remove Dispute"
+            }
+          }
+        },
+        {
+          "id": "qsl4wVi0jzA",
+          "name": "Convert to Conditional Title",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "30. Convert to Conditional Title",
+              "value": "30. Convert to Conditional Title"
+            }
+          }
+        },
+        {
+          "id": "mUdrNa8Zatj",
+          "name": "Convert to Emphyteutic Lease",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "31. Convert to Emphyteutic Lease",
+              "value": "31. Convert to Emphyteutic Lease"
+            }
+          }
+        },
+        {
+          "id": "RddmRX7M2Ou",
+          "name": "Convert to Full Title",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "32. Convert to Full Title",
+              "value": "32. Convert to Full Title"
+            }
+          }
+        },
+        {
+          "id": "gRCkxO0u1q0",
+          "name": "Boundary Change",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "33. Boundary Change",
+              "value": "33. Boundary Change"
+            }
+          }
+        },
+        {
+          "id": "ltxPFzQI5HM",
+          "name": "Add Dispute",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "35. Add Dispute",
+              "value": "35. Add Dispute"
+            }
+          }
+        },
+        {
+          "id": "DlirXgf5OEV",
+          "name": "Transfer by court decision",
+          "mapping": {
+            "j2eablH0pUR": {
+              "label": "1. Court decision",
+              "value": "1. Court decision"
+            }
+          }
+        }
+      ],
+      "dataElements": [
+        {
+          "id": "j2eablH0pUR",
+          "name": "LAM08 - Total number of land transactions registered",
+          "mapping": {
+            "label": "LAM08 - Total number of land transactions registered",
+            "value": "LAM08 - Total number of land transactions registered"
+          }
+        }
+      ]
+    }
+  ],
+  "organisationUnits": [
+    {
+      "id": "Z0MxRFyvdaG",
+      "name": "Kirehe",
+      "code": "RW.ES.KH"
+    },
+    {
+      "id": "LweyQ9rxJbP",
+      "name": "Kicukiro",
+      "code": "RW.KV.KK"
+    },
+    {
+      "id": "mdm12fMcJuN",
+      "name": "Gakenke",
+      "code": "RW.NO.GK"
+    },
+    {
+      "id": "ETtWK7MuFb1",
+      "name": "Rwamagana",
+      "code": "RW.ES.RM"
+    },
+    {
+      "id": "JV7FRXfygy5",
+      "name": "Nyagatare",
+      "code": "RW.ES.NT"
+    },
+    {
+      "id": "eqB3EpO6HxG",
+      "name": "Nyaruguru",
+      "code": "RW.SU.NU"
+    },
+    {
+      "id": "T6NLioXVBBX",
+      "name": "Nyamagabe",
+      "code": "RW.SU.NY"
+    },
+    {
+      "id": "nB1tyt7Ghw2",
+      "name": "Nyamasheke",
+      "code": "RW.OU.NS"
+    },
+    {
+      "id": "bE4iPgUpnJh",
+      "name": "Gasabo",
+      "code": "RW.KV.GB"
+    },
+    {
+      "id": "vjCIw6WhViX",
+      "name": "Nyarugenge",
+      "code": "RW.KV.NG"
+    },
+    {
+      "id": "mYhXbvQMgKi",
+      "name": "Ngoma",
+      "code": "RW.ES.NM"
+    },
+    {
+      "id": "faCyamJFO4V",
+      "name": "Gisagara",
+      "code": "RW.SU.GG"
+    },
+    {
+      "id": "zOPAeYqXqha",
+      "name": "Musanze",
+      "code": "RW.NO.MS"
+    },
+    {
+      "id": "D08wGsCkMtd",
+      "name": "Rusizi",
+      "code": "RW.OU.RS"
+    },
+    {
+      "id": "Gsc3zY13g6y",
+      "name": "Burera",
+      "code": "RW.NO.BR"
+    },
+    {
+      "id": "zO9MRVrmbdE",
+      "name": "Nyanza",
+      "code": "RW.SU.NZ"
+    },
+    {
+      "id": "VOYHddO6fNJ",
+      "name": "Rubavu",
+      "code": "RW.OU.RB"
+    },
+    {
+      "id": "CFfOokeLMIP",
+      "name": "Gicumbi",
+      "code": "RW.NO.GC"
+    },
+    {
+      "id": "MjGQ9dO0fWP",
+      "name": "Ngororero",
+      "code": "RW.OU.NR"
+    },
+    {
+      "id": "hgBbFwhTPIK",
+      "name": "Nyabihu",
+      "code": "RW.OU.NB"
+    },
+    {
+      "id": "WQIBTmTqZCE",
+      "name": "Gatsibo",
+      "code": "RW.ES.GT"
+    },
+    {
+      "id": "FtHpidadBSE",
+      "name": "Kamonyi",
+      "code": "RW.SU.KM"
+    },
+    {
+      "id": "kbwtu5D99WV",
+      "name": "Kayonza",
+      "code": "RW.ES.KZ"
+    },
+    {
+      "id": "YuXPwRPcOIl",
+      "name": "Rulindo",
+      "code": "RW.NO.RL"
+    },
+    {
+      "id": "EV0z6mnMMxk",
+      "name": "Rutsiro",
+      "code": "RW.OU.RT"
+    },
+    {
+      "id": "liRoLH5pgTZ",
+      "name": "Huye",
+      "code": "RW.SU.HU"
+    },
+    {
+      "id": "GNSnAaAL2cZ",
+      "name": "Bugesera",
+      "code": "RW.ES.BG"
+    },
+    {
+      "id": "Dw1pde912dq",
+      "name": "Ruhango",
+      "code": "RW.SU.RH"
+    },
+    {
+      "id": "fqwwrXcDNSz",
+      "name": "Karongi",
+      "code": "RW.OU.KG"
+    },
+    {
+      "id": "ihRFxco3pM3",
+      "name": "Muhanga",
+      "code": "RW.SU.MH"
+    }
+  ],
+  "periodType": "Quarterly"
+}

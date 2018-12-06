@@ -90,7 +90,6 @@ const processWaterData = async dataElements => {
 
 
 const insertData = data => {
-    console.log(DATA_URL);
     const options = {
         method: 'POST',
         uri: DATA_URL,
