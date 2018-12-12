@@ -1,9 +1,12 @@
 const url = require('url').URL;
 const _ = require('lodash');
 const rq = require('request-promise');
+const moment = require('moment');
+
+// TODO remove username and password from script
 const username = 'Jeric';
 const password = '20SeraPkp8FA!18';
-const dhisUrl = 'http://localhost:8080';
+const dhisUrl = 'https://rbme.environment.gov.rw';
 
 const dhis2 = new url(dhisUrl);
 
@@ -30,56 +33,57 @@ module.exports.processData = (dataSet, data) => {
     const forms = dataSet.forms;
     let dataValues = [];
     data = nest(data, [dataSet.dataElementColumn.value]);
+
     const dataSetUnits = _.fromPairs(dataSet.organisationUnits.map(o => {
         if (dataSet.orgUnitStrategy.value === 'name') {
             return [o.name.toLocaleLowerCase(), o.id];
         } else if (dataSet.orgUnitStrategy.value === 'code') {
-            return [o.code, o.id];
+            return [o.code.toLocaleLowerCase(), o.id];
         }
         return [o.id, o.id];
     }));
+    let validatedData = [];
+
 
     forms.forEach(f => {
-        let p = {};
         f.dataElements.forEach(element => {
             if (element.mapping) {
                 const foundData = data[element.mapping.value];
-                // console.log(foundData);
-                let groupedData = {};
                 if (foundData) {
-                    groupedData = _.fromPairs(foundData.map(d => {
-                        return [d[dataSet.categoryOptionComboColumn.value], {
+                    const groupedData = foundData.map(d => {
+                        return {
                             period: d[dataSet.periodColumn.value],
                             value: d[dataSet.dataValueColumn.value],
-                            orgUnit: d[dataSet.orgUnitColumn.value].toLocaleLowerCase()
-                        }]
-                    }));
-
-                    const obj = _.fromPairs([[element.id, groupedData]]);
-                    p = {...p, ...obj}
+                            orgUnit: d[dataSet.orgUnitColumn.value] ? d[dataSet.orgUnitColumn.value].toLocaleLowerCase() : null,
+                            dataElement: element.id,
+                            categoryOptionCombo: d[dataSet.categoryOptionComboColumn.value] ? d[dataSet.categoryOptionComboColumn.value].toLocaleLowerCase() : null
+                        }
+                    });
+                    validatedData = [...validatedData, ...groupedData];
                 }
             }
         });
-        data = p;
-        if (data) {
-            f.categoryOptionCombos.forEach(coc => {
-                _.forOwn(coc.mapping, (mapping, dataElement) => {
-                    // console.log(dataElement);
-                    if (data[dataElement]) {
-                        const orgUnit = dataSetUnits[data[dataElement][mapping.value]['orgUnit']];
+
+        f.categoryOptionCombos.forEach(coc => {
+            _.forOwn(coc.mapping, (mapping, dataElement) => {
+                validatedData.filter(v => {
+                    return v.categoryOptionCombo === mapping.value.toLocaleLowerCase() && v.dataElement === dataElement;
+                }).forEach(d => {
+                    if (d['orgUnit']) {
+                        const orgUnit = dataSetUnits[d['orgUnit']];
                         if (orgUnit) {
                             dataValues = [...dataValues, {
                                 dataElement,
-                                value: data[dataElement][mapping.value]['value'],
-                                period: data[dataElement][mapping.value]['period'],
+                                value: d['value'],
+                                period: d['period'],
                                 categoryOptionCombo: coc.id,
                                 orgUnit
                             }]
                         }
                     }
-                })
+                });
             });
-        }
+        });
     });
 
     return dataValues;
@@ -93,4 +97,15 @@ module.exports.insertData = data => {
         json: true
     };
     return rq(options);
+};
+
+module.exports.enumerateDates = (startDate, endDate, addition, format) => {
+    const dates = [];
+    const currDate = moment(startDate).startOf(addition);
+    const lastDate = moment(endDate).startOf(addition);
+    dates.push(currDate.clone().format(format));
+    while (currDate.add(1, addition).diff(lastDate) <= 0) {
+        dates.push(currDate.clone().format(format));
+    }
+    return dates;
 };

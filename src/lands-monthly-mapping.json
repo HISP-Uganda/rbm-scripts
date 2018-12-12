@@ -2,28 +2,28 @@
   "id": "bU2LoHFGUzr",
   "name": "National Monthly report",
   "orgUnitColumn": {
-    "label": "Country",
-    "value": "Country"
+    "label": "organisationUnit",
+    "value": "organisationUnit"
   },
   "periodColumn": {
-    "label": "Month",
-    "value": "Month"
+    "label": "period",
+    "value": "period"
   },
   "orgUnitStrategy": {
     "value": "name",
     "label": "name"
   },
   "dataElementColumn": {
-    "label": "Data Element",
-    "value": "Data Element"
+    "label": "code",
+    "value": "code"
   },
   "categoryOptionComboColumn": {
-    "label": "Category",
-    "value": "Category"
+    "label": "categoryOptioncombo",
+    "value": "categoryOptioncombo"
   },
   "dataValueColumn": {
-    "label": "Value",
-    "value": "Value"
+    "label": "value",
+    "value": "value"
   },
   "forms": [
     {
@@ -32,11 +32,7 @@
           "id": "HllvX50cXC0",
           "name": "default",
           "mapping": {
-            "ZqpPX9Gi9cQ": {
-              "label": "default",
-              "value": "default"
-            },
-            "lAaRHD0OUoI": {
+            "TK71erxESEv": {
               "label": "default",
               "value": "default"
             }
@@ -45,19 +41,11 @@
       ],
       "dataElements": [
         {
-          "id": "lAaRHD0OUoI",
-          "name": "LAM12 - Public Access - Female - Actual",
+          "id": "TK71erxESEv",
+          "name": "LAM12 - Total number of public accesses of the LAIS.",
           "mapping": {
-            "label": "LAM12 - Public Access - Female - Actual",
-            "value": "LAM12 - Public Access - Female - Actual"
-          }
-        },
-        {
-          "id": "ZqpPX9Gi9cQ",
-          "name": "LAM12 - Public Access - Male - Actual",
-          "mapping": {
-            "label": "LAM12 - Public Access - Male - Actual",
-            "value": "LAM12 - Public Access - Male - Actual"
+            "label": "LAM12",
+            "value": "LAM12"
           }
         }
       ]

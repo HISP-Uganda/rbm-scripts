@@ -25,6 +25,7 @@ yarn.lock
 *.xls
 *.xlsx
 *.accdb
+options.js
 
 connector-*
 *.log

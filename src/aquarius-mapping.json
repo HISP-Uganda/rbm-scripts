@@ -9,8 +9,8 @@
     "value": "Year"
   },
   "orgUnitStrategy": {
-    "value": "name",
-    "label": "name"
+    "value": "code",
+    "label": "code"
   },
   "dataElementColumn": {
     "label": "Parameter",
@@ -113,6 +113,7 @@
           "id": "Y1Iow5rJFKF",
           "code": "PAR9",
           "name": "DIN (mg/L)",
+          "param": "NO3_dis",
           "mapping": {
             "label": "DIN (mg/L)",
             "value": "DIN (mg/L)"
@@ -132,6 +133,7 @@
           "id": "XIWZqyObPzs",
           "code": "PAR8",
           "name": "DIP (mg/L)",
+          "param": "PO4",
           "mapping": {
             "label": "DIP (mg/L)",
             "value": "DIP (mg/L)"
@@ -190,294 +192,589 @@
   ],
   "organisationUnits": [
     {
-      "id": "cgGiDhuQ8GJ",
-      "name": "WCSITE_37",
-      "code": "SITE_37"
-    },
-    {
-      "id": "EYW3whigqAy",
-      "name": "WCSITE_39",
-      "code": "SITE_39"
-    },
-    {
-      "id": "bdf5iIgJ7tU",
+      "code": "SITE_57",
       "name": "WCSITE_57",
-      "code": "SITE_57"
+      "id": "bdf5iIgJ7tU"
     },
     {
-      "id": "Fz1g25hdJXt",
-      "name": "WCSITE_46",
-      "code": "SITE_46"
+      "code": "WQ62",
+      "name": "Mwogo before confluence with Mbirurume",
+      "id": "K9e509NLr2f"
     },
     {
-      "id": "y6Tp9IFcDkm",
-      "name": "WCSITE_17",
-      "code": "SITE_17"
+      "code": "WQ70",
+      "name": "Nyabugogo after leaving Muhazi at Rwesero",
+      "id": "nRu1n18aq9E"
     },
     {
-      "id": "gGNN3WpDjpi",
-      "name": "WCSITE_14",
-      "code": "SITE_14"
+      "code": "WQ85",
+      "name": "Warufu river",
+      "id": "Anz76dJqgSn"
     },
     {
-      "id": "w7sO7T5HKWI",
-      "name": "WCSITE_22",
-      "code": "SITE_22"
-    },
-    {
-      "id": "di1JxxSuLh3",
+      "code": "SITE_32",
       "name": "WCSITE_32",
-      "code": "SITE_32"
+      "id": "di1JxxSuLh3"
     },
     {
-      "id": "BS7T4ReVRai",
-      "name": "WCSITE_11",
-      "code": "SITE_11"
+      "code": "WQ35",
+      "name": "Akanyaru on the Border to Burundi",
+      "id": "SLbFzW7wNTW"
     },
     {
-      "id": "TJKqZHheZ79",
+      "code": "WQ01",
+      "name": "Akagera at Rusumo falls gauging station",
+      "id": "AH5Mln89zPm"
+    },
+    {
+      "code": "SITE_20",
       "name": "WCSITE_20",
-      "code": "SITE_20"
+      "id": "TJKqZHheZ79"
     },
     {
-      "id": "vKTaRkemMvh",
-      "name": "WCSITE_48",
-      "code": "SITE_48"
+      "code": "WQ42",
+      "name": "Kanyonyomba river",
+      "id": "qrveoR1a3rK"
     },
     {
-      "id": "g1yKdxsKRBF",
-      "name": "WCSITE_24",
-      "code": "SITE_24"
-    },
-    {
-      "id": "TXhg5F9TLMa",
+      "code": "SITE_41",
       "name": "WCSITE_41",
-      "code": "SITE_41"
+      "id": "TXhg5F9TLMa"
     },
     {
-      "id": "nO5qyd31wqN",
-      "name": "WCSITE_43",
-      "code": "SITE_43"
-    },
-    {
-      "id": "znGMqYUbHM6",
+      "code": "SITE_35",
       "name": "WCSITE_35",
-      "code": "SITE_35"
+      "id": "znGMqYUbHM6"
     },
     {
-      "id": "M2JKHS98dJ5",
-      "name": "WCSITE_15",
-      "code": "SITE_15"
+      "code": "WQ82",
+      "name": "Sebeya  River at Musabike sector",
+      "id": "J737mf6mbT2"
     },
     {
-      "id": "ysPlw8DI7Ef",
+      "code": "WQ42a",
+      "name": "Akagera at Kagitumba before getting Muvumba",
+      "id": "SGWsFXNPM1V"
+    },
+    {
+      "code": "WQ73",
+      "name": "Nyagatugu river",
+      "id": "iFo3ITgTN7F"
+    },
+    {
+      "code": "SITE_23",
       "name": "WCSITE_23",
-      "code": "SITE_23"
+      "id": "ysPlw8DI7Ef"
     },
     {
-      "id": "uxF3ldU5Hi1",
+      "code": "SITE_12",
       "name": "WCSITE_12",
-      "code": "SITE_12"
+      "id": "uxF3ldU5Hi1"
     },
     {
-      "id": "jKK2Q1CoXK8",
-      "name": "WCSITE_58",
-      "code": "SITE_58"
+      "code": "WQ66",
+      "name": "Nyabarongo before entering Akagera river",
+      "id": "s7fw41CnxlM"
     },
     {
-      "id": "AYNipaFntVB",
-      "name": "WCSITE_50",
-      "code": "SITE_50"
+      "code": "WQ39",
+      "name": "Kadahokwa river on the intake at Kadahokwa WTP",
+      "id": "SBt2K0ejRBy"
     },
     {
-      "id": "o60JHZ0zAQT",
-      "name": "WCSITE_28",
-      "code": "SITE_28"
-    },
-    {
-      "id": "OCLfMQQOiaa",
+      "code": "SITE_45",
       "name": "WCSITE_45",
-      "code": "SITE_45"
+      "id": "OCLfMQQOiaa"
     },
     {
-      "id": "aDd1yYW5Byv",
+      "code": "SITE_4",
       "name": "WCSITE_04",
-      "code": "SITE_4"
+      "id": "aDd1yYW5Byv"
     },
     {
-      "id": "tokeF8PVvBr",
-      "name": "WCSITE_01",
-      "code": "SITE_1"
-    },
-    {
-      "id": "GIDJxQJoh7y",
+      "code": "SITE_56",
       "name": "WCSITE_56",
-      "code": "SITE_56"
+      "id": "GIDJxQJoh7y"
     },
     {
-      "id": "mpGesIAe2L7",
+      "code": "SITE_16",
       "name": "WCSITE_16",
-      "code": "SITE_16"
+      "id": "mpGesIAe2L7"
     },
     {
-      "id": "wP0ftCulyi8",
+      "code": "WQ67",
+      "name": "Nyabarongo before getting into Mukungwa at Ngaru",
+      "id": "AhLPHpWrZWj"
+    },
+    {
+      "code": "WQ65",
+      "name": "Nyabarongo after getting Nyabugogo at Ruliba station",
+      "id": "lG2x05iFJA8"
+    },
+    {
+      "code": "WQ59",
+      "name": "Muvumba river at Kagitumba gauging station",
+      "id": "rxcE6zUAS5h"
+    },
+    {
+      "code": "SITE_19",
       "name": "WCSITE_19",
-      "code": "SITE_19"
+      "id": "wP0ftCulyi8"
     },
     {
-      "id": "EKngNHkBtpR",
-      "name": "WCSITE_02",
-      "code": "SITE_2"
+      "code": "WQ75",
+      "name": "Rubyiro River",
+      "id": "NLsDYoK2wQJ"
     },
     {
-      "id": "WGGNDOV7v6F",
+      "code": "WQ74",
+      "name": "Nyamukongoro River discharging into Karambo lake",
+      "id": "ddFYJo8u7WW"
+    },
+    {
+      "code": "WQ47a",
+      "name": "Kivu Lake at 100m from Bralirwa",
+      "id": "QReTCEaDz3h"
+    },
+    {
+      "code": "WQ48",
+      "name": "Kivu Lake at the beach (ex.Golf Hotel)",
+      "id": "VHHXLvtwom6"
+    },
+    {
+      "code": "WQ54",
+      "name": "Muhazi Lake at Rwesero",
+      "id": "xitXZ8RU5sr"
+    },
+    {
+      "code": "SITE_30",
       "name": "WCSITE_30",
-      "code": "SITE_30"
+      "id": "WGGNDOV7v6F"
     },
     {
-      "id": "xZKKuy9nTfS",
-      "name": "WCSITE_08",
-      "code": "SITE_8"
+      "code": "WQ52",
+      "name": "Mugesera Lake at Karenge WTP",
+      "id": "X9MCemTw720"
     },
     {
-      "id": "fswXxKdKAKR",
+      "code": "WQ37",
+      "name": "Cyunyu river before intake of WTP-Kamembe",
+      "id": "Tt4y1q9bJiS"
+    },
+    {
+      "code": "WQ40",
+      "name": "Kamanyola (WQ57)",
+      "id": "Uuj1QYMFxeI"
+    },
+    {
+      "code": "SITE_6",
       "name": "WCSITE_06",
-      "code": "SITE_6"
+      "id": "fswXxKdKAKR"
     },
     {
-      "id": "lXZw0PRbeX2",
+      "code": "SITE_47",
       "name": "WCSITE_47",
-      "code": "SITE_47"
+      "id": "lXZw0PRbeX2"
     },
     {
-      "id": "LMiBa501xxa",
-      "name": "WCSITE_21",
-      "code": "SITE_21"
-    },
-    {
-      "id": "XRi3v2yW5uW",
-      "name": "WCSITE_09",
-      "code": "SITE_9"
-    },
-    {
-      "id": "mGbW4D3h5QT",
+      "code": "SITE_42",
       "name": "WCSITE_42",
-      "code": "SITE_42"
+      "id": "mGbW4D3h5QT"
     },
     {
-      "id": "WOvq8CVefB0",
+      "code": "SITE_5",
       "name": "WCSITE_05",
-      "code": "SITE_5"
+      "id": "WOvq8CVefB0"
     },
     {
-      "id": "w8rGEO7kJJM",
+      "code": "WQ58",
+      "name": "Mulindi River",
+      "id": "EWa8BenKwAJ"
+    },
+    {
+      "code": "WQ68",
+      "name": "Nyabarongo before getting Nyabugogo at Nzove",
+      "id": "FQuJgI6x7Uz"
+    },
+    {
+      "code": "WQ72",
+      "name": "Nyabugogo at Giticyinyoni on Nemba gauging station",
+      "id": "dfpcLB3s5D1"
+    },
+    {
+      "code": "SITE_18",
       "name": "WCSITE_18",
-      "code": "SITE_18"
+      "id": "w8rGEO7kJJM"
     },
     {
-      "id": "NibTVTr7YZX",
-      "name": "WCSITE_29",
-      "code": "SITE_29"
-    },
-    {
-      "id": "Hz26ZhpRuFL",
-      "name": "WCSITE_53",
-      "code": "SITE_53"
-    },
-    {
-      "id": "PC1E5MekHFw",
+      "code": "SITE_51",
       "name": "WCSITE_51",
-      "code": "SITE_51"
+      "id": "PC1E5MekHFw"
     },
     {
-      "id": "ibVu4D7oZvo",
+      "code": "SITE_26",
       "name": "WCSITE_26",
-      "code": "SITE_26"
+      "id": "ibVu4D7oZvo"
     },
     {
-      "id": "CaFGZicy1mg",
+      "code": "WQ56",
+      "name": "Mukungwa River before getting into Nyabarongo",
+      "id": "I9n9o1zbMso"
+    },
+    {
+      "code": "SITE_7",
       "name": "WCSITE_07",
-      "code": "SITE_7"
+      "id": "CaFGZicy1mg"
     },
     {
-      "id": "UO2KuYt80Cq",
+      "code": "SITE_44",
       "name": "WCSITE_44",
-      "code": "SITE_44"
+      "id": "UO2KuYt80Cq"
     },
     {
-      "id": "QqXWD2YQ0GB",
+      "code": "SITE_3",
       "name": "WCSITE_03",
-      "code": "SITE_3"
+      "id": "QqXWD2YQ0GB"
     },
     {
-      "id": "XYCuOa1UuzX",
+      "code": "SITE_13",
       "name": "WCSITE_13",
-      "code": "SITE_13"
+      "id": "XYCuOa1UuzX"
     },
     {
-      "id": "uKsBjot4dro",
-      "name": "WCSITE_27",
-      "code": "SITE_27"
-    },
-    {
-      "id": "I4b0lrS4wnt",
-      "name": "WCSITE_10",
-      "code": "SITE_10"
-    },
-    {
-      "id": "nypWKSQiK9u",
+      "code": "SITE_40",
       "name": "WCSITE_40",
-      "code": "SITE_40"
+      "id": "nypWKSQiK9u"
     },
     {
-      "id": "BgpS67OSvhd",
+      "code": "SITE_31",
       "name": "WCSITE_31",
-      "code": "SITE_31"
+      "id": "BgpS67OSvhd"
     },
     {
-      "id": "ceeWC0xYvOS",
-      "name": "WCSITE_55",
-      "code": "SITE_55"
+      "code": "WQ43",
+      "name": "Karambo river before discharge into Sebeya",
+      "id": "GDoGN0p3IL5"
     },
     {
-      "id": "x986eaQSmmx",
-      "name": "WCSITE_25",
-      "code": "SITE_25"
+      "code": "WQ81",
+      "name": "Rweru Lake",
+      "id": "SV4qViAyFOK"
     },
     {
-      "id": "lEP1SGvwHuk",
-      "name": "WCSITE_54",
-      "code": "SITE_54"
+      "code": "WQ61",
+      "name": "Mwange river",
+      "id": "Nu1GahBl9HO"
     },
     {
-      "id": "wmCOKp90tm3",
+      "code": "WQ49",
+      "name": "Kivu lake at the beach (Gisenyi town)",
+      "id": "qWOMA4ITuNE"
+    },
+    {
+      "code": "WQ78",
+      "name": "Rukarara River",
+      "id": "UvdkHeiJTTt"
+    },
+    {
+      "code": "WQ86",
+      "name": "Yanze riber",
+      "id": "ldIagbqSKel"
+    },
+    {
+      "code": "WQ79",
+      "name": "Rusine River",
+      "id": "RWaLXM9tuSm"
+    },
+    {
+      "code": "SITE_49",
       "name": "WCSITE_49",
-      "code": "SITE_49"
+      "id": "wmCOKp90tm3"
     },
     {
-      "id": "IZzc0fwFRgM",
-      "name": "WCSITE_36",
-      "code": "SITE_36"
-    },
-    {
-      "id": "pyFDmul2KVC",
+      "code": "SITE_34",
       "name": "WCSITE_34",
-      "code": "SITE_34"
+      "id": "pyFDmul2KVC"
     },
     {
-      "id": "xIfq9c6tWeF",
+      "code": "SITE_33",
       "name": "WCSITE_33",
-      "code": "SITE_33"
+      "id": "xIfq9c6tWeF"
     },
     {
-      "id": "GQ3lI3eXgZA",
+      "code": "WQ55",
+      "name": "Mukungwa after discharge of Kigombe at Nyakinama gauging station",
+      "id": "gyLsy0hu1La"
+    },
+    {
+      "code": "SITE_52",
       "name": "WCSITE_52",
-      "code": "SITE_52"
+      "id": "GQ3lI3eXgZA"
     },
     {
-      "id": "lsTKeycBE0f",
+      "code": "WQ84",
+      "name": "Upstream Burera lake",
+      "id": "ovqqs1Yxp1B"
+    },
+    {
+      "code": "WQ47",
+      "name": "Buganya river",
+      "id": "EiwSRHLX8zu"
+    },
+    {
+      "code": "SITE_37",
+      "name": "WCSITE_37",
+      "id": "cgGiDhuQ8GJ"
+    },
+    {
+      "code": "SITE_39",
+      "name": "WCSITE_39",
+      "id": "EYW3whigqAy"
+    },
+    {
+      "code": "SITE_46",
+      "name": "WCSITE_46",
+      "id": "Fz1g25hdJXt"
+    },
+    {
+      "code": "SITE_17",
+      "name": "WCSITE_17",
+      "id": "y6Tp9IFcDkm"
+    },
+    {
+      "code": "WQ38",
+      "name": "Dam site Gishara bridge",
+      "id": "EMYa49OInmX"
+    },
+    {
+      "code": "SITE_14",
+      "name": "WCSITE_14",
+      "id": "gGNN3WpDjpi"
+    },
+    {
+      "code": "WQ45",
+      "name": "Kigombe after Musanze town before entering into Mukungwa River",
+      "id": "UrHCeIcIXxt"
+    },
+    {
+      "code": "SITE_22",
+      "name": "WCSITE_22",
+      "id": "w7sO7T5HKWI"
+    },
+    {
+      "code": "SITE_11",
+      "name": "WCSITE_11",
+      "id": "BS7T4ReVRai"
+    },
+    {
+      "code": "WQ36",
+      "name": "Cyunyu river before entering Kivu Lake",
+      "id": "FnBxDkaGWGw"
+    },
+    {
+      "code": "WQ69",
+      "name": "Nyabarongo mixing with Mukungwa at Muvumba bridge",
+      "id": "aD2PHFmz6k4"
+    },
+    {
+      "code": "WQ46",
+      "name": "Kigombe River source at Musanze town",
+      "id": "gyvrNd4VDsa"
+    },
+    {
+      "code": "SITE_48",
+      "name": "WCSITE_48",
+      "id": "vKTaRkemMvh"
+    },
+    {
+      "code": "SITE_24",
+      "name": "WCSITE_24",
+      "id": "g1yKdxsKRBF"
+    },
+    {
+      "code": "SITE_43",
+      "name": "WCSITE_43",
+      "id": "nO5qyd31wqN"
+    },
+    {
+      "code": "SITE_15",
+      "name": "WCSITE_15",
+      "id": "M2JKHS98dJ5"
+    },
+    {
+      "code": "WQ87",
+      "name": "Yanze river before entering Nyabugogo",
+      "id": "ctbwQ98JORq"
+    },
+    {
+      "code": "SITE_58",
+      "name": "WCSITE_58",
+      "id": "jKK2Q1CoXK8"
+    },
+    {
+      "code": "WQ51",
+      "name": "Mbirururme River",
+      "id": "xAGaiLwEmAK"
+    },
+    {
+      "code": "WQ41",
+      "name": "Kamiranzovu River",
+      "id": "dipydvO2DDd"
+    },
+    {
+      "code": "WQ76",
+      "name": "Rugiramigozi river on the intake of Gihuma WTP",
+      "id": "lPqNn5mYDIA"
+    },
+    {
+      "code": "WQ63",
+      "name": "Njume river",
+      "id": "EF7jBAJhdjM"
+    },
+    {
+      "code": "SITE_50",
+      "name": "WCSITE_50",
+      "id": "AYNipaFntVB"
+    },
+    {
+      "code": "SITE_28",
+      "name": "WCSITE_28",
+      "id": "o60JHZ0zAQT"
+    },
+    {
+      "code": "SITE_1",
+      "name": "WCSITE_01",
+      "id": "tokeF8PVvBr"
+    },
+    {
+      "code": "WQ34",
+      "name": "Cyohoha South Lake at Ruhuha WTP",
+      "id": "efW6X0l3V6r"
+    },
+    {
+      "code": "WQ64",
+      "name": "Nsakira source",
+      "id": "NNV0hwGbOom"
+    },
+    {
+      "code": "WQ60",
+      "name": "Muvumba river before Nyagatare Town",
+      "id": "MdL47w1pHrD"
+    },
+    {
+      "code": "SITE_2",
+      "name": "WCSITE_02",
+      "id": "EKngNHkBtpR"
+    },
+    {
+      "code": "WQ44",
+      "name": "Karundura River",
+      "id": "hTeiJq8mK9Z"
+    },
+    {
+      "code": "WQ18",
+      "name": "Akanyaru before entering Akagera river",
+      "id": "DgaCUk9ki7a"
+    },
+    {
+      "code": "SITE_8",
+      "name": "WCSITE_08",
+      "id": "xZKKuy9nTfS"
+    },
+    {
+      "code": "SITE_21",
+      "name": "WCSITE_21",
+      "id": "LMiBa501xxa"
+    },
+    {
+      "code": "SITE_9",
+      "name": "WCSITE_09",
+      "id": "XRi3v2yW5uW"
+    },
+    {
+      "code": "WQ80",
+      "name": "Rusizi River on the up stream of Hydropower plant",
+      "id": "Tr3uWqczgB4"
+    },
+    {
+      "code": "SITE_29",
+      "name": "WCSITE_29",
+      "id": "NibTVTr7YZX"
+    },
+    {
+      "code": "SITE_53",
+      "name": "WCSITE_53",
+      "id": "Hz26ZhpRuFL"
+    },
+    {
+      "code": "WQ57",
+      "name": "Mukungwa River upstream at Hydropower",
+      "id": "Emrekv3aZqu"
+    },
+    {
+      "code": "WQ53",
+      "name": "Muhazi Lake at Rukara sector",
+      "id": "TTKelNFilZC"
+    },
+    {
+      "code": "SITE_27",
+      "name": "WCSITE_27",
+      "id": "uKsBjot4dro"
+    },
+    {
+      "code": "SITE_10",
+      "name": "WCSITE_10",
+      "id": "I4b0lrS4wnt"
+    },
+    {
+      "code": "SITE_55",
+      "name": "WCSITE_55",
+      "id": "ceeWC0xYvOS"
+    },
+    {
+      "code": "WQ50",
+      "name": "Kivu Lake at the Port or beach (near Rusizi Border)",
+      "id": "jgObdXPmLG9"
+    },
+    {
+      "code": "SITE_25",
+      "name": "WCSITE_25",
+      "id": "x986eaQSmmx"
+    },
+    {
+      "code": "WQ83",
+      "name": "Sebeya River before entering Kivu Lake",
+      "id": "SYEOGJnUfrI"
+    },
+    {
+      "code": "SITE_54",
+      "name": "WCSITE_54",
+      "id": "lEP1SGvwHuk"
+    },
+    {
+      "code": "WQ77",
+      "name": "Ruhwa River",
+      "id": "N3Kgn0ANB5V"
+    },
+    {
+      "code": "SITE_36",
+      "name": "WCSITE_36",
+      "id": "IZzc0fwFRgM"
+    },
+    {
+      "code": "WQ19",
+      "name": "Akagera after receiving Nyabarongo and Akanyaru at Kanzenze",
+      "id": "OVdWes2CBfQ"
+    },
+    {
+      "code": "SITE_38",
       "name": "WCSITE_38",
-      "code": "SITE_38"
+      "id": "lsTKeycBE0f"
+    },
+    {
+      "code": "WQ71",
+      "name": "Nyabugogo after mining activities at Rusine center",
+      "id": "k2KGNtAhBqN"
     }
   ],
   "periodType": "FinancialJuly"
